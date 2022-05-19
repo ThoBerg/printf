@@ -1,13 +1,13 @@
 #include <stdio.h>
 {
 	float Gleitkommazahl; int Ganzzahl; char Character, String[];
-	printf("Geben Sie Bitte:\- eine Gleitkommazahl: ");
+	printf("Geben Sie Bitte:\n- eine Gleitkommazahl: ");
 		scanf("%f", &Gleitkommazahl);
 	printf("\n- eine Ganzzahl: ");
 		scanf("%d", &Ganzzahl);
-	printf("-\n- ein Character: ");
+	printf("\n- ein Character: ");
 		scanf("%c", &Character);
-	printf("\- ein String: ");
+	printf("\n- ein String: ");
 		scanf("%c", &String);
 	return 0;
 
